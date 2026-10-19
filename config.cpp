@@ -27,6 +27,9 @@ class CfgMods
         extra=0;
         type = "Mod";
 	    dependencies[]={"gui","Game","World","Mission"};
+		defines[]={
+			"BuildingFort_Mod_1A"
+		};
 	    class defs
 	    {
 			class imageSets
@@ -36,17 +39,17 @@ class CfgMods
 			class gameScriptModule
             {
                 value="";
-                files[]={"BuildingFortifications/scripts/3_Game"};
+                files[]={"BuildingFortifications/scripts/3_Game", "BuildingFortifications/scripts/Common"};
             };
 			class worldScriptModule
             {
                 value="";
-                files[]={"BuildingFortifications/scripts/4_World"};
+                files[]={"BuildingFortifications/scripts/4_World", "BuildingFortifications/scripts/Common"};
             };
 			class missionScriptModule
             {
                 value="";
-                files[]={ "BuildingFortifications/scripts/5_Mission" };
+                files[]={ "BuildingFortifications/scripts/5_Mission", "BuildingFortifications/scripts/Common"};
             };
         };
     };

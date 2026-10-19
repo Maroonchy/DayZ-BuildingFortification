@@ -8,7 +8,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture="BuildingFortifications\Data\Window Barricade\Medium Window\Data\Stage_2_nohq.paa";
+	texture="";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="BuildingFortifications\Data\Window Barricade\Medium Window\Data\Stage_2_as.paa";
+	texture="";
 	uvSource="tex";
 	class uvTransform
 	{

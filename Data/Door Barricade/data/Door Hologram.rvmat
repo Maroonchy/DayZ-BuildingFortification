@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="BuildingFortifications\Data\Door Barricade\data\Door Hologram_nohq.paa.paa";
+	texture="BuildingFortifications\Data\Door Barricade\data\Door Hologram_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
